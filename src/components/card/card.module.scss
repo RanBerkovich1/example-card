@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 .root {
     display: block;
     opacity: 1;
@@ -12,8 +14,7 @@
     background-color: #F4F4F4;
     display: flex;
     flex-direction: column;
-    max-width: 350px;
-    margin: 0px;
+    margin: 0px 0px 0px;
     padding: 16px;
     box-shadow: 0 0 #FFC09A;
     border-top-right-radius: 20px;
@@ -21,20 +22,31 @@
     border-bottom-right-radius: 20px;
     gap: 0px;
     align-content: start;
+    transition: 200ms;
+
 
     &:hover {
-        box-shadow: 10.61px 10.61px rgb(255, 192, 154);
+        box-shadow: 10px 10px rgb(255, 192, 154);
+            margin: -15px 0px 0px;
+
+        transition: 500ms;
     }
+
+    max-width:320px;
+    min-width:250px;
 }
 
 .card-title {
     line-height: 1.2;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 20px;
-    margin: 16px 0px 0px;
+    margin: 8px 0px 0px;
+    font-family: "Playfair Display", serif;
 }
 
-.card-description {}
+.card-description {
+    margin: 8px 0px 16px;
+}
 
 .card-texts {
     margin-bottom: 0px;
@@ -48,8 +60,19 @@
 
 .card-btn {
     background-color: #F6AC49;
-    border-radius: 40px;
+    border-radius: 60px;
     color: #333333;
-    width: auto;
-}
+    width: fit-content;
+    transition: 500ms;
 
+
+    &:hover {
+        background-color: rgb(246, 172, 73, 0);
+        border: 2px solid #FF9B23;
+    }
+
+    border:2px solid transparent;
+
+
+
+}

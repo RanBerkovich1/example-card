@@ -6,6 +6,7 @@ import { ReactComponent as TypescriptLogo } from './assets/typescript.svg';
 import { ReactComponent as ScssLogo } from './assets/scss.svg';
 import styles from './App.module.scss';
 
+
 function App() {
     const [count, setCount] = useState(0);
 
