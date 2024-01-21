@@ -27,13 +27,25 @@
 
     &:hover {
         box-shadow: 10px 10px rgb(255, 192, 154);
-            margin: -15px 0px 0px;
+        margin: -15px 0px 0px;
 
         transition: 500ms;
     }
 
     max-width:320px;
     min-width:250px;
+
+    &:active {
+       
+       box-shadow: 10px 10px rgb(98, 171, 235);
+        .card-btn {
+            display: none;
+        }
+
+        .blue-btn {
+            display: block;
+        }
+    }
 }
 
 .card-title {
@@ -72,7 +84,16 @@
     }
 
     border:2px solid transparent;
+    display:block;
 
 
 
+}
+
+.blue-btn {
+    background-color: #62ABEB;
+    overflow: visible;
+    display: none;
+    width: fit-content;
+    border-radius: 50px;
 }

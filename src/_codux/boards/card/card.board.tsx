@@ -6,7 +6,7 @@ export default createBoard({
     Board: () => <Card />,
     isSnippet: true,
     environmentProps: {
-        windowHeight: 525,
+        windowHeight: 427,
         canvasWidth: 354,
     },
 });

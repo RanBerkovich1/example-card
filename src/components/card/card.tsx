@@ -25,7 +25,8 @@ export const Card = ({ className }: CardProps) => {
                         soft.
                     </p>
                 </div>
-                <button className={styles['card-btn']}>Take me there</button>
+                <button className={styles['card-btn']}>Orange Button</button>
+                <button className={styles['blue-btn']}>Blue Button</button>
             </div>
         </div>
     );
